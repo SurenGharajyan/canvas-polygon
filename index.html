@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Polygon Via Canvas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top-panel">
+        <button class="success" id="exportCSVBtn"> Export CSV </button>
+        <input type="file" id="uploadInput" accept="text/csv" hidden/>
+        <label for="uploadInput" class="success">Choose file</label>
+    </div>
+    <canvas id="canvas"></canvas>
+    <div id="polygonContent" class="none">
+        <input
+                id="polygonInputName"
+                type="text"
+                placeholder="Polygon Name"
+        />
+        <button class="success" id="polygonSave" > Save </button>
+        <button class="danger" id="polygonDelete" > Delete </button>
+    </div>
+    <div class="polygon-list" id="polygonsList"></div>
+</body>
+<script src="app.js"></script>
+</html>

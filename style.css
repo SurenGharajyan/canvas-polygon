@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+}
+
+button, label {
+    font-family: "Avenir Next Condensed", sans-serif;
+    cursor: pointer;
+    outline: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+    border: none;
+    margin: 10px 5px;
+}
+
+.success {
+    background-color: #2ecc71;
+}
+
+.success:hover {
+    background-color: #27ae60;
+}
+
+.danger {
+    background-color: #e74c3c;
+}
+
+.danger:hover {
+    background-color: #c0392b;
+}
+
+.upload-btn {
+    width: 100%;
+}
+
+canvas {
+    width: 100%;
+    background-color: #f3f3f3;
+    border: 1px solid;
+}
+
+input {
+    padding: 5px;
+}
+
+.none {
+    display: none;
+}
+
+.polygon-list {
+    display: grid;
+}
